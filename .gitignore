@@ -1,0 +1,40 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Nested Unity source & standalone builds (tracked in separate repository: spherical-robot-unity)
+SphericalRobotUnity/
+"Spherical Robot Workspace"/
+AdBreaker/
+*.exe
+*.dll
+*.apk
+MonoBleedingEdge/
+D3D12/
+SphericalRobotUnity_Data/
+SphericalRobotUnity_BurstDebugInformation_DoNotShip/
+UnityCrashHandler64.exe
+
+# IDE & Editor artifacts
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+Thumbs.db
+.DS_Store
